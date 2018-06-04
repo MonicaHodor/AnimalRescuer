@@ -6,7 +6,7 @@ public class Rescuer {
 
 
     public void feed (Animal animal,Food food) {
-        System.out.println(rescuerName + " just feed " + animal.setName(); + " with " + food.setName()
+        System.out.println(rescuerName + " just feed " + animal.getName() + " with " + food.getName());
     }
 
     public String getRescuerName() {
@@ -18,7 +18,7 @@ public class Rescuer {
     }
 
     public void entertain (Animal animal, EntertainmentActivity entertainmentActivity){
-            System.out.println(rescuerName + "just play with" +animal.name  + entertainmentActivity.name);
+            System.out.println(rescuerName + "just play with" +animal.getName()  + entertainmentActivity.getName());
 
 
 
