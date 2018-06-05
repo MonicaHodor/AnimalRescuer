@@ -2,9 +2,10 @@ package org.fasttrackit;
 
 public class Animal
 {
-   private String AnimalTipe;
+    private String AnimalTipe;
     private String name;
     private String color;
+    private int hunger;
 
     public String getAnimalTipe() {
         return AnimalTipe;
@@ -29,4 +30,13 @@ public class Animal
     public void setColor(String color) {
         this.color = color;
     }
-}
+
+    public int getHunger() {
+        return hunger;
+    }
+
+    public void setHunger(int hunger) {
+        this.hunger = hunger;
+    }
+    int hungerLevel =
+

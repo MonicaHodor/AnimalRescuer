@@ -12,6 +12,7 @@ public class App
         animal1.setAnimalTipe("dog");
         animal1.setName("Bernard");
         animal1.setColor("white");
+        animal1.setHunger(100);
 
 
         Food food=new Food("Pedigree");
@@ -29,10 +30,15 @@ public class App
         EntertainmentActivity entertainmentActivity = new EntertainmentActivity();
         entertainmentActivity.setName("throwtheball");
 
+
+
+
+
         Animal animal2 = new Animal();
         animal2.setAnimalTipe("cat");
         animal2.setName("Donna");
-        animal2.setColor("blck");
+        animal2.setColor("black");
+        animal2.setHunger(100);
 
         CatFood catFood=new CatFood("Purina");
 
@@ -45,6 +51,8 @@ public class App
 
         rescuer.entertain(animal1,entertainmentActivity);
         rescuer.entertain(animal2,entertainmentActivity1);
+
+
 
 
 

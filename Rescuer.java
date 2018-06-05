@@ -9,6 +9,7 @@ public class Rescuer {
         System.out.println(rescuerName + " just feed " + animal.getName() + " with " + food.getName());
     }
 
+
     public String getRescuerName() {
         return rescuerName;
     }
