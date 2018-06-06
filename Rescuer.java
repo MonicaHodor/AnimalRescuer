@@ -7,8 +7,9 @@ public class Rescuer {
 
     public void feed (Animal animal,Food food) {
         System.out.println(rescuerName + " just feed " + animal.getName() + " with " + food.getName());
+        double currentHungerLevel = animal.getHungerLevel();
+        animal.setHungerLevel( currentHungerLevel-1);
     }
-
 
     public String getRescuerName() {
         return rescuerName;

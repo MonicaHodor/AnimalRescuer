@@ -5,7 +5,7 @@ public class Animal
     private String AnimalTipe;
     private String name;
     private String color;
-    private int hunger;
+    private double  hungerLevel;
 
     public String getAnimalTipe() {
         return AnimalTipe;
@@ -31,12 +31,18 @@ public class Animal
         this.color = color;
     }
 
-    public int getHunger() {
-        return hunger;
+    public double getHungerLevel() {
+        return hungerLevel;
     }
 
-    public void setHunger(int hunger) {
-        this.hunger = hunger;
+    public void setHungerLevel(double hungerLevel) {
+        this.hungerLevel = hungerLevel;
     }
-    int hungerLevel =
+}
+
+
+
+
+
+
 
