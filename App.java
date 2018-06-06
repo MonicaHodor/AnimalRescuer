@@ -1,9 +1,32 @@
 package org.fasttrackit;
 
 
-public class App 
+import java.util.ArrayList;
+import java.util.List;
+
+public class App
 {
-    public static void main( String[] args){
+    private List<Food> availableFood = new ArrayList<Food>();
+    private EntertainmentActivity []availableActivities = new EntertainmentActivity[2];
+
+    private void initFood()
+    {availableFood.add(new Food("Pedigree"),availableFood.add(new Food("Purina"))}
+
+    private void initActivities() {
+        availableActivities[0]= new EntertainmentActivity();
+        availableActivities[1]= new EntertainmentActivity();
+    }
+
+
+    public List<Food> getAvailableFood() {
+        return availableFood;
+    }
+
+    public EntertainmentActivity[] getAvailableActivities() {
+        return availableActivities;
+    }
+
+    public static void main(String[] args){
 
              Game game=new Game();
 
@@ -53,7 +76,6 @@ public class App
 
         Animal animal = new Animal();
         rescuer.feed(animal,food);
-
 
 
 

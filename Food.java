@@ -21,11 +21,15 @@ public class Food {
         Quantity = quantity;
     }
 
+
+
+
     public Food(String name) {
 
         this.name = name;
 
 
     }
+
 
 }
