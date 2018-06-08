@@ -20,7 +20,7 @@ public class Rescuer {
     }
 
     public void entertain (Animal animal, EntertainmentActivity entertainmentActivity){
-            System.out.println(rescuerName + "just play with" +animal.getName()  + entertainmentActivity.getName());
+            System.out.println(rescuerName + "just play with" + animal.getName()  + entertainmentActivity.getName());
 
 
 
